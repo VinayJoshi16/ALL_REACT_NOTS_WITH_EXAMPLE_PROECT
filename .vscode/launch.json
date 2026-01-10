@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Apex Debugger",
+            "type": "apex",
+            "request": "launch",
+            "userIdFilter": [],
+            "requestTypeFilter": [],
+            "entryPointFilter": "",
+            "salesforceProject": "${workspaceRoot}"
+        },
+        {
+            "name": "Launch Apex Debugger",
+            "type": "apex",
+            "request": "launch",
+            "userIdFilter": [],
+            "requestTypeFilter": [],
+            "entryPointFilter": "",
+            "salesforceProject": "${workspaceRoot}"
+        },
+
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "npm install remixicon --save",
+            "runtimeExecutable": "npm",
+            "args": [
+                "install",
+                "remixicon",
+                "--save"
+            ],
+            "cwd": "${workspaceFolder}",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
