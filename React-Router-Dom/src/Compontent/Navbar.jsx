@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-700 flex justify-between items-center px-10 py-4">
+    <nav className="bg-cyan-900 flex justify-between items-center px-10 py-4">
       
       {/* Left side */}
       <h2 className="text-white font-bold text-xl cursor-pointer">
@@ -23,6 +23,9 @@ const Navbar = () => {
         </li>
         <li className="cursor-pointer hover:text-gray-200">
           <Link to="/contact">Contact</Link>
+        </li>
+        <li className="cursor-pointer hover:text-gray-200">
+          <Link to="/product">Product</Link>
         </li>
       </ul>
 

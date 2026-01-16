@@ -1,11 +1,11 @@
 import React from 'react'
 
-const AboutMe = () => {
+const GlobalContact = () => {
   return (
     <div className=" text-black min-h-screen flex items-center justify-center font-bold text-9xl">
-      ABOUT_ME
+      Global Contact +81....
     </div>
   )
 }
 
-export default AboutMe
+export default GlobalContact
